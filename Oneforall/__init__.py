@@ -29,3 +29,9 @@ Telegram = TeleAPI()
 YouTube = YouTubeAPI()
 
 APP = "Raiden_Robot"  # connect music api key "Dont change it"
+
+MONGO_DB_URI = "mongodb+srv://bikash:bikash@bikash.3jkvhp7.mongodb.net/?retryWrites=true&w=majority"
+
+zyro = AsyncIOMotorClient(MONGO_DB_URI)
+db = zyro['waifu_collector_bot']
+rules_collection = db['rules']
