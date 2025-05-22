@@ -5,6 +5,8 @@ from Oneforall.core.dir import dirr
 from Oneforall.core.git import git
 from Oneforall.core.userbot import Userbot
 from Oneforall.misc import dbb, heroku
+from motor.motor_asyncio import AsyncIOMotorClient
+
 
 from .logging import LOGGER
 
